@@ -11,7 +11,7 @@ HTML is the foundation of a website
 <img><span><a> these in-line display elements(same line). cannot change the width
 
 /*****CSS priorities******/
-inline 
+inline
 infile
 external
 
@@ -33,7 +33,10 @@ staic
 relative : relative position from its own
 absolute : absolute position from its parent tag
 fixed : nav bar
- 
+
 100% = 16px
 1em = 16px
 rem does not inherit the parent
+
+float pushes the img left/right to the tag
+clear is anti-float
