@@ -1,0 +1,5 @@
+del /s /q "C:\Users\e3025135\AppData\Local\Temp\*.*"
+del /s /q "C:\Windows\Temp\*.*"
+del /s /q "C:\Windows\Prefetch\*.*"
+del /s /q "C:\Windows\Logs\*.*"
+del /s /q "C:\$Recycle.Bin\*.*"

@@ -1,0 +1,39 @@
+ISP - Internet Service Provider
+DNS - Domain Name Server
+
+browser(google.com) - ISP - DNS Server(216.58.210.46) - ISP - browser(216.58.210.46) - ISP - Server(google.com sent HTML,CSS,JS files) - ISP - browser(Google homepage)
+when we click refresh the browser again performs the above steps
+
+HTML is the foundation of a website
+
+<h1><p><div> these are block display elements(takes different lines). can change the width
+
+<img><span><a> these in-line display elements(same line). cannot change the width
+
+/*****CSS priorities******/
+inline 
+infile
+external
+
+css id="values" must be unique in a page
+css class="values" does not need to be unique
+
+same tag can have two classes but cannot have two id's
+ex: class="class1 class2"  ---Right
+    id="id1 id2" -------------Wrong
+
+	display properties
+inline - cannot change width
+block - can change width
+inline-block - can change width
+none
+
+	position
+staic
+relative : relative position from its own
+absolute : absolute position from its parent tag
+fixed : nav bar
+ 
+100% = 16px
+1em = 16px
+rem does not inherit the parent
